@@ -15,6 +15,7 @@ rm -rf public
 mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
+git co public/CNAME
 
 echo "Checking out gh-pages branch into public"
 git worktree add -B gh-pages public origin/gh-pages
