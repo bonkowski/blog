@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bonkowski.github.io/blog/about/</loc>
+    <lastmod>2017-10-04T22:39:37+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bonkowski.github.io/blog/posts/yesql-oracle-and-fetch-out-of-sequence/</loc>
     <lastmod>2016-10-28T22:08:46+02:00</lastmod>
   </url>
