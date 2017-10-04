@@ -1,4 +1,4 @@
-baseURL = "https://bonkowski.github.io/blog" 
+baseURL = "https://bonkowski.github.io/blog/" 
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "cactus"
