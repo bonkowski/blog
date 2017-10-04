@@ -1,4 +1,6 @@
-baseURL = "https://bonkowski.github.io/blog/" 
+baseURL = "http://bonkowski.net"
+canonifyURLs = true 
+#baseURL = "https://bonkowski.github.io/blog/" 
 languageCode = "en-us"
 title = "Bonkowski.net"
 theme = "cactus"
