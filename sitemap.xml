@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bonkowski.github.io/blog/posts/yesql-oracle-and-fetch-out-of-sequence/</loc>
+    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bonkowski.github.io/blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://bonkowski.github.io/blog/categories/clojure/</loc>
+    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bonkowski.github.io/blog/</loc>
+    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bonkowski.github.io/blog/categories/oracle/</loc>
+    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bonkowski.github.io/blog/posts/</loc>
+    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bonkowski.github.io/blog/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bonkowski.github.io/blog/categories/yesql/</loc>
+    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
