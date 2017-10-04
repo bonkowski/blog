@@ -1,6 +1,7 @@
 ---
 title: "Yesql, Oracle and fetch out of sequence"
 date: 2016-10-28T22:08:46+02:00
+draft: false
 categories: [Clojure, Yesql, Oracle]
 ---
 
