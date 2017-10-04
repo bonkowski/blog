@@ -1,4 +1,4 @@
-baseURL = "http://bonkowski.net"
+baseURL = "http://bonkowski.net/"
 canonifyURLs = true 
 #baseURL = "https://bonkowski.github.io/blog/" 
 languageCode = "en-us"
