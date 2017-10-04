@@ -3,51 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bonkowski.github.io/blog/about/</loc>
+    <loc>http://bonkowski.net/about/</loc>
     <lastmod>2017-10-04T22:39:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bonkowski.github.io/blog/posts/yesql-oracle-and-fetch-out-of-sequence/</loc>
+    <loc>http://bonkowski.net/posts/yesql-oracle-and-fetch-out-of-sequence/</loc>
     <lastmod>2016-10-28T22:08:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bonkowski.github.io/blog/</loc>
-    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.github.io/blog/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.github.io/blog/categories/clojure/</loc>
+    <loc>http://bonkowski.net/</loc>
     <lastmod>2016-10-28T22:08:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bonkowski.github.io/blog/categories/oracle/</loc>
+    <loc>http://bonkowski.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bonkowski.net/categories/clojure/</loc>
     <lastmod>2016-10-28T22:08:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bonkowski.github.io/blog/posts/</loc>
+    <loc>http://bonkowski.net/categories/oracle/</loc>
     <lastmod>2016-10-28T22:08:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bonkowski.github.io/blog/tags/</loc>
+    <loc>http://bonkowski.net/posts/</loc>
+    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bonkowski.github.io/blog/categories/yesql/</loc>
+    <loc>http://bonkowski.net/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bonkowski.net/categories/yesql/</loc>
     <lastmod>2016-10-28T22:08:46+02:00</lastmod>
     <priority>0</priority>
   </url>
