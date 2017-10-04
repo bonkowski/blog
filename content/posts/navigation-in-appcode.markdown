@@ -20,7 +20,6 @@ As you maybe have guessed, I used to be a Java developer (and still am if I real
 
 Time went by, and in October 2011, I was working on a Rails project, and didn't actually code that much in Objective-C, JetBrains released their first AppCode beta. 
 
-
 A couple of months later, I was hired to to work on a iOS project. I did use Xcode the first couple of weeks since the other team members used Xcode, but the frustration over Xcode and all its crashes made me do the switch. I have used AppCode everyday since then, and I have never looked back.
 
 ## Why the love?
