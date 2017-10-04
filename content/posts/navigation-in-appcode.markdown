@@ -38,7 +38,6 @@ When you want to go to a class, you use the shortcut __&#x2318;O__ to open the "
 
 {{< vimeo 236651730 >}}
 
-
 ## Navigate to file
 
 What if you want to navigate to a file other than a class, such as an image file or a plist?
