@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>http://bonkowski.net/posts/refactoring-in-appcode/</loc>
+    <lastmod>2013-02-10T23:19:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bonkowski.net/posts/navigation-in-appcode/</loc>
+    <lastmod>2013-01-21T21:32:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bonkowski.net/</loc>
     <lastmod>2016-10-28T22:08:46+02:00</lastmod>
     <priority>0</priority>
