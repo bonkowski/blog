@@ -1,20 +1,25 @@
 baseURL = "https://bonkowski.github.io/blog/" 
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Bonkowski.net"
 theme = "cactus"
 
 themesDir = "./themes"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "spf13"
+disqusShortname = "andreb"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 
 [params]
-	name = "John Doe"
+	name = "André Bonkowski"
 	description = "Describe your website"
-	bio = "Blogger & Programmer"
+	bio = "Programmer"
 	# Enter optionally your twitter account
-	twitter = "Your Twitter account"
+	twitter = "bonkowski"
 	enableRSS = true
 
 	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
@@ -51,4 +56,3 @@ disqusShortname = "spf13"
     twitter  = "https://www.twitter.com/"
     facebook = "https://www.facebook.com/"
     github   = "https://www.github.com/"
-    dribble  = "https://www.dribbble.com/"
