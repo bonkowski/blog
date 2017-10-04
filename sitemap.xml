@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://github.com/bonkowski/blog/categories/</loc>
+    <loc>https://github.com/bonkowski/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/bonkowski/blog/</loc>
+    <loc>https://github.com/bonkowski/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/bonkowski/blog/tags/</loc>
+    <loc>https://github.com/bonkowski/tags/</loc>
     <priority>0</priority>
   </url>
   
