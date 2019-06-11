@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bonkowski.net</title>
-    <link>http://bonkowski.net/categories/</link>
+    <link>https://bonkowski.net/categories/</link>
     <description>Recent content in Categories on Bonkowski.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Oct 2016 22:08:46 +0200</lastBuildDate>
     
-	<atom:link href="http://bonkowski.net/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bonkowski.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Clojure</title>
-      <link>http://bonkowski.net/categories/clojure/</link>
+      <link>https://bonkowski.net/categories/clojure/</link>
       <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
       
-      <guid>http://bonkowski.net/categories/clojure/</guid>
+      <guid>https://bonkowski.net/categories/clojure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oracle</title>
-      <link>http://bonkowski.net/categories/oracle/</link>
+      <link>https://bonkowski.net/categories/oracle/</link>
       <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
       
-      <guid>http://bonkowski.net/categories/oracle/</guid>
+      <guid>https://bonkowski.net/categories/oracle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yesql</title>
-      <link>http://bonkowski.net/categories/yesql/</link>
+      <link>https://bonkowski.net/categories/yesql/</link>
       <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
       
-      <guid>http://bonkowski.net/categories/yesql/</guid>
+      <guid>https://bonkowski.net/categories/yesql/</guid>
       <description></description>
     </item>
     

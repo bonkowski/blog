@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Bonkowski.net</title>
-    <link>http://bonkowski.net/about/</link>
+    <link>https://bonkowski.net/about/</link>
     <description>Recent content in About on Bonkowski.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Jun 2019 13:52:37 +0200</lastBuildDate>
     
-	<atom:link href="http://bonkowski.net/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bonkowski.net/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
