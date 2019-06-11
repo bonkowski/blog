@@ -56,7 +56,7 @@ Open the "Navigate to symbol" dialog by typing __&#x2325;&#x2318;O__ and enter t
 If you have opened "Navigate to Class," but you really wanted to "Navigate to File", you don't have to close the dialog, and then type the wanted shortcut again. You can toggle between the different dialogs, and text that you have entered is restored between the dialogs. The last text you typed is also remembered to the next time you use one of these navigation dialogs. I promise, you'll going to use them a lot.
 
 
-##Recently Changed Files
+## Recently Changed Files
 The shortcuts I use the most must to be __&#x21E7;&#x2318;E__ "View Recently Changed Files" and __&#x2318;E__ "View Recent Files". 
 Usually, I edit a small set of related files, and are going back and forth between these files.
 

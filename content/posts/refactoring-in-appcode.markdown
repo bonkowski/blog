@@ -66,7 +66,7 @@ There are several Extract factoring's, and here is a short description of each:
 #### Extract Variable
 Let say that you have a hard coded value. You select the value, and type __&#x2325;&#x2318;V__. AppCode will declare a variable above where it's used, with the correct type, and the name of the new variable selected. To change the proposed name, just begin to type the name of the variable. If no value or expression is explicitly selected, AppCode gives you a suggestion of what to base the value of the introduced value from as shown in the example below:
 
-![Select variable expression](https://bonski-blog.s3.amazonaws.com/select-variable-expression.png.png)
+![Select variable expression](https://bonski-blog.s3.amazonaws.com/select-variable-expression.png)
 
 #### Extract Constant
 This refactoring, __&#x2325;&#x2318;C__,  is similar to ___Extract Variable___, but this introduces a constant instead. If no actual value is selected, AppCode gives you an opportunity to select what the constant is based on from values and expressions in scope. When the constant is selected, AppCode asks for you if you would like to replace only this one, or all similar values found in the current file. 
