@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="André Bonkowski">
 <meta name="description" content="Describe your website">
-<meta name="generator" content="Hugo 0.39" />
+<meta name="generator" content="Hugo 0.55.6" />
 <title>Navigation in AppCode (EAP)</title>
 <link rel="shortcut icon" href="http://bonkowski.net/images/favicon.ico">
 <link rel="stylesheet" href="http://bonkowski.net/css/style.css">
@@ -26,22 +26,8 @@
 JetBrains I know that more than 10 years experience with IDE&rsquo;s from JetBrains, such as IntelliJ and RubyMine, does something with your expectations of what an IDE should provide." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://bonkowski.net/posts/navigation-in-appcode/" />
-
-
-
 <meta property="article:published_time" content="2013-01-21T21:32:00&#43;02:00"/>
-
 <meta property="article:modified_time" content="2013-01-21T21:32:00&#43;02:00"/>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -95,7 +81,7 @@ JetBrains I know that more than 10 years experience with IDE&rsquo;s from JetBra
     <section id="post-body">
         
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/appcode-logo.png" alt="AppCode Logo" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/appcode-logo.png" alt="AppCode Logo" /></p>
 
 <h2 id="xcode">Xcode</h2>
 
@@ -125,8 +111,8 @@ The video and screenshots in this blog post are taken from the Early Access Prog
 <p>When you want to go to a class, you use the shortcut <strong>&#x2318;O</strong> to open the &ldquo;Navigate to class&rdquo; dialog. The video below shows different ways to use this shortcut to open a class.</p>
 
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//player.vimeo.com/video/236651730" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//player.vimeo.com/video/236651730" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
  </div>
 
 
@@ -135,7 +121,7 @@ The video and screenshots in this blog post are taken from the Early Access Prog
 <p>What if you want to navigate to a file other than a class, such as an image file or a plist?
 Open the &ldquo;Navigate to file&rdquo; dialog by typing <strong>&#x21E7;&#x2318;O</strong></p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/goto-file.png" alt="Goto File" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/goto-file.png" alt="Goto File" /></p>
 
 <p>As you can see from the screenshot above, only so much of the filename is needed to identify the file, and any fragments of the filename can be used. This does also apply for &ldquo;Navigate to class&rdquo; and &ldquo;Navigate to symbol&rdquo; as described below.</p>
 
@@ -144,7 +130,7 @@ Open the &ldquo;Navigate to file&rdquo; dialog by typing <strong>&#x21E7;&#x2318
 <p>I know there is a method somewhere in the code called &ldquo;initializeBadge, but I can&rsquo;t remember in which class. The text search in AppCode is really fast, but here an even faster solution is to use.
 Open the &ldquo;Navigate to symbol&rdquo; dialog by typing <strong>&#x2325;&#x2318;O</strong> and enter the name of the symbol you are looking for. Since&rsquo;m lazy, I only type &ldquo;initBad&rdquo;.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/goto-symbol.png" alt="Goto Symbol" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/goto-symbol.png" alt="Goto Symbol" /></p>
 
 <p>If you have opened &ldquo;Navigate to Class,&rdquo; but you really wanted to &ldquo;Navigate to File&rdquo;, you don&rsquo;t have to close the dialog, and then type the wanted shortcut again. You can toggle between the different dialogs, and text that you have entered is restored between the dialogs. The last text you typed is also remembered to the next time you use one of these navigation dialogs. I promise, you&rsquo;ll going to use them a lot.</p>
 
@@ -158,7 +144,7 @@ Usually, I edit a small set of related files, and are going back and forth betwe
 
 <p>If there are multiple definitions, such as for NSString, a list of the different definitions is shown.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/goto-definition.png" alt="Goto Definition" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/goto-definition.png" alt="Goto Definition" /></p>
 
 <p>You can also toggle between related files <strong>&#8963;&#x2318;&#8593;</strong>. Unfortunately, this does not include going to the corresponding unit tests as of now, but the 2.0 EAP roadmap contains the following bullet point: &ldquo;Navigation between test and code&rdquo;.</p>
 
@@ -192,7 +178,7 @@ Usually, I edit a small set of related files, and are going back and forth betwe
 </footer>
 
 <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -270,14 +256,17 @@ Usually, I edit a small set of related files, and are going back and forth betwe
 
 
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-37909515-1', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37909515-1', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
 
 

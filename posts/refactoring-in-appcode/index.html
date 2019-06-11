@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="André Bonkowski">
 <meta name="description" content="Describe your website">
-<meta name="generator" content="Hugo 0.39" />
+<meta name="generator" content="Hugo 0.55.6" />
 <title>Refactoring in AppCode</title>
 <link rel="shortcut icon" href="http://bonkowski.net/images/favicon.ico">
 <link rel="stylesheet" href="http://bonkowski.net/css/style.css">
@@ -27,22 +27,8 @@ Rename Naming is surprisingly difficult. It&rsquo;s easy to get &ldquo;paralyzed
 The &ldquo;Rename&rdquo; refactoring in AppCode is triggered by the shortcut &#x21E7;F6. By using this, you can rename a file, class, method, property, ivar, local variable, and so on." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://bonkowski.net/posts/refactoring-in-appcode/" />
-
-
-
 <meta property="article:published_time" content="2013-02-10T23:19:00&#43;02:00"/>
-
 <meta property="article:modified_time" content="2013-02-10T23:19:00&#43;02:00"/>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -106,21 +92,21 @@ The &ldquo;Rename&rdquo; refactoring in AppCode is triggered by the shortcut &#x
 
 <p>The &ldquo;Rename&rdquo; refactoring in AppCode is triggered by the shortcut <strong>&#x21E7;F6</strong>. By using this, you can rename a file, class, method, property, ivar, local variable, and so on. In the file or project view, the shortcut triggers renaming a file or a class.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/rename.png" alt="Rename" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/rename.png" alt="Rename" /></p>
 
 <p>If you just are renaming a file (such as a plist or an image), AppCode will rename the file, and also change where it is referenced. If you are renaming a class, both the header, and the implementation of the class is renamed, and the references of the files in the project file. If you select <strong>Rename</strong> when the cursor is on a class name used by the class, the selected class is renamed.</p>
 
 <p>If you triggers the rename from inside the source file, the name of the class, variable, and so on, is entering a &ldquo;edit mode,&rdquo; almost like &ldquo;Edit all in Scope,&rdquo; in Xcode. The difference is that while in Xcode you renamed only the names inside the current class, the renaming in AppCode is global.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/inline-rename.png" alt="Inline Rename" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/inline-rename.png" alt="Inline Rename" /></p>
 
 <p>In the example above, changing the name <em>KMRObjectViewLayout</em> to something else,  will rename the <em>KMRObjectViewLayout</em> class, it&rsquo;s containing file, and all the references to the class.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/edit-all-in-scope.png" alt="Edit all in Scope" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/edit-all-in-scope.png" alt="Edit all in Scope" /></p>
 
 <p>Here is an example of how it looks like when you are renaming a method name. All instances in scope are selected and edited.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/name-proposal.png" alt="Rename class from file or project view" />
+<p><img src="https://bonski-blog.s3.amazonaws.com/name-proposal.png" alt="Rename class from file or project view" />
 In the next example, shown above, we want to rename an instance variable. AppCode gives us a few name proposals, based on the name of the variable, and its usage. (As you can see, contentWidth is suggested based on the method name)</p>
 
 <h2 id="change-signature">Change signature</h2>
@@ -130,8 +116,8 @@ In the next example, shown above, we want to rename an instance variable. AppCod
 <p>The video below shows how you can use the <strong><em>Change Signature</em></strong> refactoring.</p>
 
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//player.vimeo.com/video/236656940" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//player.vimeo.com/video/236656940" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
  </div>
 
 
@@ -143,9 +129,9 @@ In the next example, shown above, we want to rename an instance variable. AppCod
 
 <h2 id="move">Move</h2>
 
-<p>The <strong><em>Move</em></strong> refactoring allows you to move a property, ivar&rsquo;s and methods from one class to another. If the target class does not exist, you get a warning that tells you that. While this is correct, <s>I would expect AppCode to ask whether I want to create the non-existing class. There is a feature request for this already registered in the AppCode issue tracker, so I expect it to be in a <a href="http://youtrack.jetbrains.com/issue/OC-6223">future build of the EAP</a>.</s></p>
+<p>The <strong><em>Move</em></strong> refactoring allows you to move a property, ivar&rsquo;s and methods from one class to another. If the target class does not exist, you get a warning that tells you that. While this is correct, <s>I would expect AppCode to ask whether I want to create the non-existing class. There is a feature request for this already registered in the AppCode issue tracker, so I expect it to be in a <a href="https://youtrack.jetbrains.com/issue/OC-6223">future build of the EAP</a>.</s></p>
 
-<p><strong>Update:</strong> <a href="http://youtrack.jetbrains.com/issue/OC-6223">The &ldquo;missing&rdquo; feature is now fixed</a>.</p>
+<p><strong>Update:</strong> <a href="https://youtrack.jetbrains.com/issue/OC-6223">The &ldquo;missing&rdquo; feature is now fixed</a>.</p>
 
 <p>This is one of the other great things about JetBrains. They respond to bug reports and feature requests almost immediately, and the Issue Tracker is publicly visible.</p>
 
@@ -153,7 +139,7 @@ In the next example, shown above, we want to rename an instance variable. AppCod
 
 <p>When in the project browser, selecting a header, or an implementation file, or when inside one of these files, <strong>F5</strong> will prompt you to enter the name of the new copy of the files, and where to copy them. While in the &ldquo;To directory&rdquo; input field <strong>&#x2303;&#x2423;</strong> will provide path completion. When accepting, the class name inside the source files is changed as well.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/copy.png" alt="Copy a class" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/copy.png" alt="Copy a class" /></p>
 
 <h2 id="safe-delete">Safe Delete</h2>
 
@@ -167,7 +153,7 @@ In the next example, shown above, we want to rename an instance variable. AppCod
 
 <p>Let say that you have a hard coded value. You select the value, and type <strong>&#x2325;&#x2318;V</strong>. AppCode will declare a variable above where it&rsquo;s used, with the correct type, and the name of the new variable selected. To change the proposed name, just begin to type the name of the variable. If no value or expression is explicitly selected, AppCode gives you a suggestion of what to base the value of the introduced value from as shown in the example below:</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/select-variable-expression.png.png" alt="Select variable expression" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/select-variable-expression.png.png" alt="Select variable expression" /></p>
 
 <h4 id="extract-constant">Extract Constant</h4>
 
@@ -181,7 +167,7 @@ In the next example, shown above, we want to rename an instance variable. AppCod
 
 <p>By using <strong>&#x2325;&#x2318;E</strong> on a variable, AppCode shows a dialog where the declaration of the property is shown, togheter with a checkbox. If you check the checkbox, the property is generated in a private category. If not, the property is declared in the header.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/introduce-property.png" alt="Introduce property" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/introduce-property.png" alt="Introduce property" /></p>
 
 <h4 id="extract-instance-variable">Extract Instance Variable</h4>
 
@@ -199,7 +185,7 @@ In the next example, shown above, we want to rename an instance variable. AppCod
 
 <p>This is one of the most my frequently used refactoring. Let say a method has too much responsibility, and you want to move some of the logic into a new method, Select the code you want to move, type <strong>&#x2325;&#x2318;F</strong>, and AppCode generates a new method for you, including necessary parameters.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/extract_method.png" alt="Extract method" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/extract_method.png" alt="Extract method" /></p>
 
 <p>As you can see from the screenshot above, it&rsquo;s quite similar to <strong><em>Change Signature</em></strong>. The main difference is the Targets drop down. Depending on what you select in this drop down, the signature is declared in the header file, in a private category, or just in the implementation file.</p>
 
@@ -211,7 +197,7 @@ In the next example, shown above, we want to rename an instance variable. AppCod
 
 <p>To create a superclass from an existing class, the easiest way to accomplish this is to select the <strong>Extract Superclass</strong>. This refactoring does not have a default keyboard shortcut (You can create one yourself). You will be presented with a dialog where methods, properties, and ivars are shown in a list with checkboxes, and an input field where you type the name of the new superclass. You check the name of what you want to move into the new superclass. If one of the selected methods has dependencies to other methods, properties, or ivars, you get a warning, telling you about the problem.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/extract_superclass.png" alt="Extract Superclass" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/extract_superclass.png" alt="Extract Superclass" /></p>
 
 <h4 id="extract-subclass">Extract Subclass</h4>
 
@@ -227,7 +213,7 @@ In the next example, shown above, we want to rename an instance variable. AppCod
 
 <p>Below is a sample of an excluded usage of a method. This feature is also used in all refactoring where the change will affect more than in one place.</p>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/excluded-file.png" alt="Excluded file" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/excluded-file.png" alt="Excluded file" /></p>
 
 <p>You can think of the <strong><em>Inline</em></strong> refactoring as an inverse of <strong><em>Extract Variable</em></strong>, <strong><em>Extract Constant</em></strong> and so on.</p>
 
@@ -237,7 +223,7 @@ In the next example, shown above, we want to rename an instance variable. AppCod
 
 <h2 id="refactor-this">Refactor This&hellip;</h2>
 
-<p><img src="http://bonski-blog.s3.amazonaws.com/refactor-this.png" alt="IRefactor this" /></p>
+<p><img src="https://bonski-blog.s3.amazonaws.com/refactor-this.png" alt="IRefactor this" /></p>
 
 <p>If your having trouble remembering all the different Refactor keyboard shortcuts, you should at least try to learn this one: <strong>&#x2303;T</strong>.
 This shortcut will present a popup menu containing all the available refactoring&rsquo;s, that you can select from, by using the number in front of the name, or navigate by using the arrow keys, and select the one you want by <strong>&#x21A9;</strong></p>
@@ -270,7 +256,7 @@ This shortcut will present a popup menu containing all the available refactoring
 </footer>
 
 <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -348,14 +334,17 @@ This shortcut will present a popup menu containing all the available refactoring
 
 
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-37909515-1', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-37909515-1', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
 
 
