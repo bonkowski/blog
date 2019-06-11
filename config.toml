@@ -3,7 +3,7 @@ canonifyURLs = true
 #baseURL = "https://bonkowski.github.io/blog/" 
 languageCode = "en-us"
 title = "Bonkowski.net"
-theme = "cactus"
+theme = "hugo-theme-cactus-plus"
 
 themesDir = "./themes"
 # Enter your tracking code to enable Google Analytics
