@@ -2,6 +2,8 @@
 title: "Refactoring in AppCode"
 date: 2013-02-10T23:19:00+02:00
 draft: false
+categories: [programming]
+tags: [AppCode, Objective-C, JetBrains]
 ---
 
 

@@ -2,6 +2,8 @@
 title: "Navigation in AppCode (EAP)"
 date: 2013-01-21T21:32:00+02:00
 draft: false
+categories: [programming]
+tags: [AppCode, Objective-C, JetBrains]
 ---
 
 ![AppCode Logo](https://bonski-blog.s3.amazonaws.com/appcode-logo.png)

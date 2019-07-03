@@ -2,6 +2,8 @@
 title: "Serverside Swift"
 date: 2019-07-03T17:54:10+02:00
 draft: false
+categories: [programming]
+tags: [Swift, Serverside]
 ---
 
 I read this [article](https://www.raywenderlich.com/3858252-how-to-think-in-server-side-swift) today on raywenderlich.com, which was fun since I last night started playing around a little with Swift on the server-side. 
