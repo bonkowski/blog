@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Objective-C on Bonkowski.net</title>
+    <link>https://bonkowski.net/tags/objective-c/</link>
+    <description>Recent content in Objective-C on Bonkowski.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Feb 2013 23:19:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://bonkowski.net/tags/objective-c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Refactoring in AppCode</title>
+      <link>https://bonkowski.net/posts/refactoring-in-appcode/</link>
+      <pubDate>Sun, 10 Feb 2013 23:19:00 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/posts/refactoring-in-appcode/</guid>
+      <description>AppCode offers a rich set of refactoring&amp;rsquo;s, which is fast, safe, and easy to use.
+Rename Naming is surprisingly difficult. It&amp;rsquo;s easy to get &amp;ldquo;paralyzed&amp;rdquo; if the perfect name of a class or method does not pops into place immediately. But hey, you can always rename it later!
+The &amp;ldquo;Rename&amp;rdquo; refactoring in AppCode is triggered by the shortcut &amp;#x21E7;F6. By using this, you can rename a file, class, method, property, ivar, local variable, and so on.</description>
+    </item>
+    
+    <item>
+      <title>Navigation in AppCode (EAP)</title>
+      <link>https://bonkowski.net/posts/navigation-in-appcode/</link>
+      <pubDate>Mon, 21 Jan 2013 21:32:00 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/posts/navigation-in-appcode/</guid>
+      <description>Xcode My first meeting with Xcode, which was version 3 something, did not impress me. A couple of years later, Xcode 4 was presented at WWDC 2010, and while my first impression was positive, this feeling was short lived. It crashed continually, and while it looked good, which it still does, the editing experience and feature set were far below my expectations for a modern IDE.
+JetBrains I know that more than 10 years experience with IDE&amp;rsquo;s from JetBrains, such as IntelliJ and RubyMine, does something with your expectations of what an IDE should provide.</description>
+    </item>
+    
+  </channel>
+</rss>

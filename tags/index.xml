@@ -6,9 +6,91 @@
     <description>Recent content in Tags on Bonkowski.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jul 2019 17:54:10 +0200</lastBuildDate>
     
 	<atom:link href="https://bonkowski.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Serverside</title>
+      <link>https://bonkowski.net/tags/serverside/</link>
+      <pubDate>Wed, 03 Jul 2019 17:54:10 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/tags/serverside/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>https://bonkowski.net/tags/swift/</link>
+      <pubDate>Wed, 03 Jul 2019 17:54:10 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clojure</title>
+      <link>https://bonkowski.net/tags/clojure/</link>
+      <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/tags/clojure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oracle</title>
+      <link>https://bonkowski.net/tags/oracle/</link>
+      <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/tags/oracle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yesql</title>
+      <link>https://bonkowski.net/tags/yesql/</link>
+      <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/tags/yesql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>errors</title>
+      <link>https://bonkowski.net/tags/errors/</link>
+      <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/tags/errors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AppCode</title>
+      <link>https://bonkowski.net/tags/appcode/</link>
+      <pubDate>Sun, 10 Feb 2013 23:19:00 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/tags/appcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JetBrains</title>
+      <link>https://bonkowski.net/tags/jetbrains/</link>
+      <pubDate>Sun, 10 Feb 2013 23:19:00 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/tags/jetbrains/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Objective-C</title>
+      <link>https://bonkowski.net/tags/objective-c/</link>
+      <pubDate>Sun, 10 Feb 2013 23:19:00 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/tags/objective-c/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

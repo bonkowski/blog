@@ -6,35 +6,17 @@
     <description>Recent content in Categories on Bonkowski.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Oct 2016 22:08:46 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2019 17:54:10 +0200</lastBuildDate>
     
 	<atom:link href="https://bonkowski.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Clojure</title>
-      <link>https://bonkowski.net/categories/clojure/</link>
-      <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
+      <title>programming</title>
+      <link>https://bonkowski.net/categories/programming/</link>
+      <pubDate>Wed, 03 Jul 2019 17:54:10 +0200</pubDate>
       
-      <guid>https://bonkowski.net/categories/clojure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oracle</title>
-      <link>https://bonkowski.net/categories/oracle/</link>
-      <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
-      
-      <guid>https://bonkowski.net/categories/oracle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yesql</title>
-      <link>https://bonkowski.net/categories/yesql/</link>
-      <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
-      
-      <guid>https://bonkowski.net/categories/yesql/</guid>
+      <guid>https://bonkowski.net/categories/programming/</guid>
       <description></description>
     </item>
     

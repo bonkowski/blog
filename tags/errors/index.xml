@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>errors on Bonkowski.net</title>
+    <link>https://bonkowski.net/tags/errors/</link>
+    <description>Recent content in errors on Bonkowski.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Oct 2016 22:08:46 +0200</lastBuildDate>
+    
+	<atom:link href="https://bonkowski.net/tags/errors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yesql, Oracle and fetch out of sequence</title>
+      <link>https://bonkowski.net/posts/yesql-oracle-and-fetch-out-of-sequence/</link>
+      <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/posts/yesql-oracle-and-fetch-out-of-sequence/</guid>
+      <description>If you encounter an ‘ORA-01002: fetch out of sequence’ when running your Yesql functions, make sure you have remembered the exclamation mark after the name of your insert/update/delete. I have only used Oracle with Yesql, but I expect other databases will give a similar error if you forget this.</description>
+    </item>
+    
+  </channel>
+</rss>

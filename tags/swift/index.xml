@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on Bonkowski.net</title>
+    <link>https://bonkowski.net/tags/swift/</link>
+    <description>Recent content in Swift on Bonkowski.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jul 2019 17:54:10 +0200</lastBuildDate>
+    
+	<atom:link href="https://bonkowski.net/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Serverside Swift</title>
+      <link>https://bonkowski.net/posts/serverside-swift/</link>
+      <pubDate>Wed, 03 Jul 2019 17:54:10 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/posts/serverside-swift/</guid>
+      <description>I read this article today on raywenderlich.com, which was fun since I last night started playing around a little with Swift on the server-side.
+To be able to use Swift on the server-side appeals to me because I really like the language. As earlier mentioned, I started looking into this last night, wanting to replicate a &amp;ldquo;Mock&amp;rdquo; server written in Go, just for fun. This server makes it easy for us to simulate a real environment while developing our iOS and Android apps.</description>
+    </item>
+    
+  </channel>
+</rss>

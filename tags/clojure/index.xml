@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yesql on Bonkowski.net</title>
-    <link>https://bonkowski.net/categories/yesql/</link>
-    <description>Recent content in Yesql on Bonkowski.net</description>
+    <title>Clojure on Bonkowski.net</title>
+    <link>https://bonkowski.net/tags/clojure/</link>
+    <description>Recent content in Clojure on Bonkowski.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Oct 2016 22:08:46 +0200</lastBuildDate>
     
-	<atom:link href="https://bonkowski.net/categories/yesql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bonkowski.net/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
