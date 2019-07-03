@@ -17,8 +17,8 @@
       <pubDate>Wed, 03 Jul 2019 17:54:10 +0200</pubDate>
       
       <guid>https://bonkowski.net/posts/serverside-swift/</guid>
-      <description>I found this article today on raywenderlich.com, which was fun since I last night started playing around a little with Swift on the server-side.
-To be able to use Swift on the server-side appeals to me because I really like the language. As earlier mentioned, I started looking into this last night, wanting to replicate a &amp;ldquo;Mock&amp;rdquo; server written in Go, just for fun. This server makes it easy for us to simulate a real environment while developing our iOS and Android apps.</description>
+      <description>I came over this article today, which got my attention since I spent a few hours yesterday evening to see what options we currently have for Swift on the backend. I like the idea since Swift is a very nice programming language.
+The project I wanted to use to explore Swift on the server-side is to replicate the functionality we already got in a &amp;ldquo;mock-server&amp;rdquo; written in Go. This server simulates most of the features that our production servers provide, which helps us when developing our iOS and Android apps.</description>
     </item>
     
   </channel>
