@@ -10,7 +10,7 @@ I came over this [article](https://www.raywenderlich.com/3858252-how-to-think-in
 
 The project I wanted to use to explore Swift on the server-side is to replicate the functionality we already got in a "mock-server" written in Go. This server simulates most of the features that our production servers provide, which helps us when developing our iOS and Android apps.
 
-I'm on my 24th year as a professional developer, and I have mainly worked on backends using JVM based languages such as Java, and later Clojure and Kotlin. In the Java days, we often had to use the Spring Framework, which I never want to do again. I have also worked with a couple of Ruby on Rails projects, and while it was fun and productive, especially in the beginning, is also something I don't want to go back.
+I'm on my 24th year as a professional developer, and I have mainly worked on backends using JVM based languages such as Java, and later Clojure and Kotlin. In the Java days, we often had to use the Spring Framework, which I never want to do again. I have also worked with a couple of Ruby on Rails projects, and while it was fun and productive, especially in the beginning, is also something I don't want to go back to.
 
 My two latest backend projects used Clojure and Kotlin. In Clojure, we do not use frameworks (I don't think it even exists), but we prefer small and focused libraries that do one thing only but does it well. 
 
