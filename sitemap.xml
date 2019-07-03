@@ -3,14 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bonkowski.net/about/</loc>
-    <lastmod>2019-06-11T13:52:37+02:00</lastmod>
+    <loc>https://bonkowski.net/</loc>
+    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bonkowski.net/</loc>
-    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
+    <loc>https://bonkowski.net/posts/</loc>
+    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bonkowski.net/posts/serverside-swift/</loc>
+    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bonkowski.net/about/</loc>
+    <lastmod>2019-06-11T13:52:37+02:00</lastmod>
   </url>
   
   <url>
@@ -27,12 +38,6 @@
   
   <url>
     <loc>https://bonkowski.net/categories/oracle/</loc>
-    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.net/posts/</loc>
     <lastmod>2016-10-28T22:08:46+02:00</lastmod>
     <priority>0</priority>
   </url>
