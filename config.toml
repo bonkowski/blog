@@ -7,7 +7,7 @@ theme = "hugo-theme-cactus-plus"
 
 themesDir = "./themes"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-37909515-1"
+googleAnalytics = "UA-37909515-2"
 # Disable comments by leaving disqusShortname empty
 disqusShortname = "andreb"
 
