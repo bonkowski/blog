@@ -66,7 +66,7 @@ if (!doNotTrack) {
                     </h1>
                     <h2 class="headline">
                     Jul 3, 2019 17:54
-                    · 594 words
+                    · 623 words
                     · 3 minute read
                       <span class="tags">
                       
@@ -87,19 +87,23 @@ if (!doNotTrack) {
 
 <p>The project I wanted to use to explore Swift on the server-side is to replicate the functionality we already got in a &ldquo;mock-server&rdquo; written in Go. This server simulates most of the features that our production servers provide, which helps us when developing our iOS and Android apps.</p>
 
-<p>I&rsquo;m on my 24th year as a professional developer, and I have mainly worked on backends using JVM based languages such as Java, and later Clojure and Kotlin. In the Java days, we often had to use the Spring Framework, which I never want to do again. I have also worked with a couple of Ruby on Rails projects, and while it was fun and productive, especially in the beginning, is also something I don&rsquo;t want to go back to.</p>
+<p>I&rsquo;m on my 24th year as a professional developer, where I mainly have worked on different backends using JVM based languages such as Java, and later Clojure and Kotlin. In the Java days, we often had to use big frameworks such as the Spring Framework, which I never want to do again. I have also worked with a couple of Ruby on Rails projects, and while it was fun and productive, especially in the beginning, is also something I don&rsquo;t want to go back to.</p>
 
-<p>My two latest backend projects used Clojure and Kotlin. In Clojure, we do not use frameworks (I don&rsquo;t think it even exists), but we prefer small and focused libraries that do one thing only but does it well.</p>
+<p>Since 2015 all the JVM based backend projects I have worked on have used Clojure or Kotlin. In Clojure, we don&rsquo;t use frameworks (I don&rsquo;t think it even exists), but we prefer small and focused libraries that do one thing only but does it well.</p>
 
-<p>At my last backend project, where we decided to use Kotlin, the team also agreed to go the &ldquo;Clojure Way&rdquo; and select the best libraries for the different tasks and problems we needed to solve instead of choosing a framework that dictates how to design and implement the project.</p>
+<p>At my last backend project, we decided to use Kotlin, we as a team also agreed to go the &ldquo;Clojure Way&rdquo; and select the best libraries for the different tasks and problems we needed to solve instead of choosing a big framework that dictates how to design and implement the project.</p>
 
-<p>What we ended up with was a simple micro web framework called Jooby, which we only use to handle requests and serve content. It would take a minimum of effort to replace Jooby with another similar library. For the rest of the application functionality, we selected a few libraries such as <a href="https://github.com/seratch/kotliquery">Kotlin Query</a> for accessing and using the database and <a href="https://github.com/SalomonBrys/Kotson">Kotson</a> for JSON, and of course, a few more. The most important library (or collection of libraries) we decided to use was <a href="https://arrow-kt.io">Arrow</a> since we wanted to write our code in a functional style.</p>
+<p>What we ended up with was a simple micro web framework called <a href="https://jooby.org">Jooby</a>, which we only use to handle requests and serve content. It would take a minimum of effort to replace Jooby with another similar library. For the rest of the application functionality, we selected a few libraries such as <a href="https://github.com/seratch/kotliquery">Kotlin Query</a> for accessing and using the database and <a href="https://github.com/SalomonBrys/Kotson">Kotson</a> for JSON, and of course, a few more. The most important library (or collection of libraries) we decided to use was <a href="https://arrow-kt.io">Arrow</a> since we wanted to write our code in a functional style.</p>
 
 <p>The project was a great success, it&rsquo;s easy to work with, very testable, and the codebase is surprisingly small. Many developers in the organization I&rsquo;m hired to work for have shown a great interest in how we designed and built the system.</p>
 
-<p>To create my replica of the beforementioned Mock server in Swift, I looked around to see what existed, and I decided to play a little with Vapor. Unfortunately, almost immediately, it gave me a feeling of wearing a straightjacket, and the simple things I wanted to start with was not as simple as I hoped it would be. What I wanted was something like a Swift version of Sinatra.</p>
+<p>To create my replica of the beforementioned &ldquo;mock-server&rdquo; in Swift, I looked around to see what options that existed, and I decided to play a little with Vapor. I also had a look at <a href="https://www.kitura.io">Kitura</a>. Unfortunately, almost immediately, Vapor gave me a feeling of wearing a straightjacket, and the simple things I wanted to start with was not as simple as I hoped it would be. What I wanted was something like a Swift version of <a href="http://sinatrarb.com">Sinatra</a>.</p>
 
-<p>After a few more Google searches, I found <a href="https://perfect.org">Perfect</a>, which looks a little more like what I want. I have only played around with this framework/library for an hour or so, but then I had a working spike of a feature. I also got a working spike using Vapor, but I got the feeling that I had to fight the framework, instead of getting the help I wanted from it. It&rsquo;s too early to come with a conclusion based on this rather simple feature I implemented, and it&rsquo;s way too early to say if Perfect is the perfect &ldquo;framework&rdquo; for me (nothing is perfect). What I can say is that Perfect seems to give more flexibility than Vapor and Kitura if you want to decide for yourself how to write your application.</p>
+<p>After a few more Google searches, I decided to try <a href="https://perfect.org">Perfect</a>, which looks a little more like what I was looking for. I have only played around with this framework/library for a couple of hours, but then I had got a working spike of a feature.</p>
+
+<p>To be fair, I also got a working spike using Vapor, but I got the feeling that I had to fight the framework, instead of getting the help I wanted from it.</p>
+
+<p>It&rsquo;s too early to come with a conclusion based on this rather simple feature I implemented, and it&rsquo;s way too early to say if Perfect is the perfect &ldquo;framework&rdquo; for me (nothing is). What I can say is that Perfect seems to give more flexibility than Vapor and Kitura if you want to decide for yourself how to write your application.</p>
 
                 </section>
             </article>
