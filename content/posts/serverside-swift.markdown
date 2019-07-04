@@ -20,7 +20,7 @@ What we ended up with was a simple micro web framework called [Jooby](https://jo
 
 The project was a great success, it's easy to work with, very testable, and the codebase is surprisingly small. Many developers in the organization I'm hired to work for have shown a great interest in how we designed and built the system.
 
-To create my replica of the beforementioned "mock-server" in Swift, I looked around to see what options that existed, and I decided to play a little with Vapor. I also had a look at [Kitura](https://www.kitura.io). Unfortunately, almost immediately, Vapor gave me a feeling of wearing a straightjacket, and the simple things I wanted to start with was not as simple as I hoped it would be. What I wanted was something like a Swift version of [Sinatra](http://sinatrarb.com).
+To create my replica of the beforementioned "mock-server" in Swift, I looked around to see what options that existed, and I decided to play a little with [Vapor](https://vapor.codes). I also had a look at [Kitura](https://www.kitura.io). Unfortunately, almost immediately, Vapor gave me a feeling of wearing a straightjacket, and the simple things I wanted to start with was not as simple as I hoped it would be. What I wanted was something like a Swift version of [Sinatra](http://sinatrarb.com).
 
 After a few more Google searches, I decided to try [Perfect](https://perfect.org), which looks a little more like what I was looking for. I have only played around with this framework/library for a couple of hours, but then I had got a working spike of a feature. 
 
