@@ -4,18 +4,23 @@
   
   <url>
     <loc>https://bonkowski.net/</loc>
-    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.net/categories/</loc>
-    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
+    <lastmod>2020-04-23T15:47:40+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bonkowski.net/posts/</loc>
+    <lastmod>2020-04-23T15:47:40+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bonkowski.net/posts/ios-azure-pipeline/</loc>
+    <lastmod>2020-04-23T15:47:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bonkowski.net/categories/</loc>
     <lastmod>2019-07-03T17:54:10+02:00</lastmod>
     <priority>0</priority>
   </url>

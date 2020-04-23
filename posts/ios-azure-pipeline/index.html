@@ -22,7 +22,7 @@ if (!doNotTrack) {
 		
 		<meta name="description" content="Describe your website">
 		<meta name="generator" content="Hugo 0.55.6" />
-		<title>Yesql, Oracle and fetch out of sequence &middot; Bonkowski.net</title>
+		<title>iOS Azure Pipeline &middot; Bonkowski.net</title>
 		<link rel="shortcut icon" href="https://bonkowski.net/images/favicon.ico">
 		<link rel="stylesheet" href="https://bonkowski.net/css/style.css">
 		<link rel="stylesheet" href="https://bonkowski.net/css/highlight.css">
@@ -62,32 +62,45 @@ if (!doNotTrack) {
             <article>
                 <header>
                     <h1>
-                        Yesql, Oracle and fetch out of sequence
+                        iOS Azure Pipeline
                     </h1>
                     <h2 class="headline">
-                    Oct 28, 2016 22:08
-                    · 49 words
+                    Apr 23, 2020 15:47
+                    · 209 words
                     · 1 minute read
                       <span class="tags">
-                      
-                      
-                          
-                              <a href="https://bonkowski.net/tags/clojure">Clojure</a>
-                          
-                              <a href="https://bonkowski.net/tags/yesql">Yesql</a>
-                          
-                              <a href="https://bonkowski.net/tags/oracle">Oracle</a>
-                          
-                              <a href="https://bonkowski.net/tags/errors">errors</a>
-                          
-                      
                       
                       </span>
                     </h2>
                 </header>
                 
                 <section id="post-body">
-                    <p>If you encounter an ‘ORA-01002: fetch out of sequence’ when running your Yesql functions, make sure you have remembered the exclamation mark after the name of your <a href="https://github.com/krisajenkins/yesql#insertupdatedelete-and-more">insert/update/delete</a>. I have only used Oracle with Yesql, but I expect other databases will give a similar error if you forget this.</p>
+                    <p>I got the task of setting up a build pipeline for an iOS project using Azure DevOps. By following the documentation, this was easy to set up a dummy project without any dependencies. If you are using CocoaPod or Carthage for dependency management, you&rsquo;ll find tasks that support this out of the box.</p>
+
+<p>We have moved away from CocoaPods and Carthage, and are now using SPM, the Swift Package Manager. I did not expect that to be an issue since this now is part of Xcode, but I was wrong.</p>
+
+<p>When running the pipeline, I got this error</p>
+
+<pre><code>/usr/bin/xcodebuild failed with return code: 74 
+xcodebuild: error: Could not resolve package dependencies: 
+ The server SSH fingerprint failed to verify
+</code></pre>
+
+<p>The solution that worked out for me was to add the <a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/install-ssh-key?view=azure-devops">Install SSH Key task</a>, and follow the documentation found there.</p>
+
+<p>The documentation tells us: <em>Select the SSH key that was uploaded to Secure Files to install on the agent</em></p>
+
+<p>You will find a tab under Library with the label <em>Secure files</em>. There you upload the private key, generated earlier.</p>
+
+<p>The task that I added looks like this:</p>
+
+<pre><code>- task: InstallSSHKey@0
+  inputs:
+    knownHostsEntry: 'github.com,140.xxx.xxx.x ssh-rsa AAAAB3....=='
+    sshPublicKey: 'ssh-rsa AA...'
+    sshPassphrase: '...'
+    sshKeySecureFile: 'Your secure file added to Secure Files, under Libraries'    
+</code></pre>
 
                 </section>
             </article>
