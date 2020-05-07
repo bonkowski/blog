@@ -4,6 +4,10 @@ date: 2020-04-23T15:47:40+02:00
 draft: false
 ---
 
+### Update (May 7, 2020)
+It seems that what I described below is not necessary if you use https for getting your dependencies.
+
+
 I got the task of setting up a build pipeline for an iOS project using Azure DevOps. By following the documentation, this was easy to set up a dummy project without any dependencies. If you are using CocoaPod or Carthage for dependency management, you'll find tasks that support this out of the box. 
 
 We have moved away from CocoaPods and Carthage, and are now using SPM, the Swift Package Manager. I did not expect that to be an issue since this now is part of Xcode, but I was wrong.
