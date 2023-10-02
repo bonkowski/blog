@@ -12,7 +12,7 @@ I got the task of setting up a build pipeline for an iOS project using Azure Dev
 
 We have moved away from CocoaPods and Carthage, and are now using SPM, the Swift Package Manager. I did not expect that to be an issue since this now is part of Xcode, but I was wrong.
 
-When running the pipeline, I got this error 
+When running the pipeline, I got this error:
 
 ```
 /usr/bin/xcodebuild failed with return code: 74 
