@@ -94,7 +94,7 @@ if (!doNotTrack) {
       <h3 id="update-may-7-2020">Update (May 7, 2020) <a href="#update-may-7-2020" class="anchor">🔗</a></h3><p>It seems that what I described below is not necessary if you use https for getting your dependencies.</p>
 <p>I got the task of setting up a build pipeline for an iOS project using Azure DevOps. By following the documentation, this was easy to set up a dummy project without any dependencies. If you are using CocoaPod or Carthage for dependency management, you&rsquo;ll find tasks that support this out of the box.</p>
 <p>We have moved away from CocoaPods and Carthage, and are now using SPM, the Swift Package Manager. I did not expect that to be an issue since this now is part of Xcode, but I was wrong.</p>
-<p>When running the pipeline, I got this error</p>
+<p>When running the pipeline, I got this error:</p>
 <pre tabindex="0"><code>/usr/bin/xcodebuild failed with return code: 74 
 xcodebuild: error: Could not resolve package dependencies: 
  The server SSH fingerprint failed to verify
