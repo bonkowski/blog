@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bonkowski.net</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Tags on Bonkowski.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jul 2019 17:54:10 +0200</lastBuildDate>
-    
-	<atom:link href="https://bonkowski.net/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 03 Jul 2019 17:54:10 +0200</lastBuildDate><atom:link href="https://bonkowski.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Serverside</title>
       <link>https://bonkowski.net/tags/serverside/</link>
@@ -39,6 +35,15 @@
     </item>
     
     <item>
+      <title>errors</title>
+      <link>https://bonkowski.net/tags/errors/</link>
+      <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
+      
+      <guid>https://bonkowski.net/tags/errors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Oracle</title>
       <link>https://bonkowski.net/tags/oracle/</link>
       <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
@@ -53,15 +58,6 @@
       <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
       
       <guid>https://bonkowski.net/tags/yesql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>errors</title>
-      <link>https://bonkowski.net/tags/errors/</link>
-      <pubDate>Fri, 28 Oct 2016 22:08:46 +0200</pubDate>
-      
-      <guid>https://bonkowski.net/tags/errors/</guid>
       <description></description>
     </item>
     

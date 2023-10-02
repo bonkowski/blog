@@ -1,119 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://bonkowski.net/</loc>
     <lastmod>2020-04-23T15:47:40+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.net/posts/</loc>
-    <lastmod>2020-04-23T15:47:40+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bonkowski.net/posts/ios-azure-pipeline/</loc>
     <lastmod>2020-04-23T15:47:40+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://bonkowski.net/posts/</loc>
+    <lastmod>2020-04-23T15:47:40+02:00</lastmod>
+  </url><url>
     <loc>https://bonkowski.net/categories/</loc>
     <lastmod>2019-07-03T17:54:10+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.net/tags/serverside/</loc>
-    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.net/posts/serverside-swift/</loc>
-    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.net/tags/swift/</loc>
-    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.net/tags/</loc>
-    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bonkowski.net/categories/programming/</loc>
     <lastmod>2019-07-03T17:54:10+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://bonkowski.net/tags/serverside/</loc>
+    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
+  </url><url>
+    <loc>https://bonkowski.net/posts/serverside-swift/</loc>
+    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
+  </url><url>
+    <loc>https://bonkowski.net/tags/swift/</loc>
+    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
+  </url><url>
+    <loc>https://bonkowski.net/tags/</loc>
+    <lastmod>2019-07-03T17:54:10+02:00</lastmod>
+  </url><url>
     <loc>https://bonkowski.net/about/</loc>
     <lastmod>2019-06-11T13:52:37+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bonkowski.net/tags/clojure/</loc>
     <lastmod>2016-10-28T22:08:46+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.net/tags/oracle/</loc>
-    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.net/tags/yesql/</loc>
-    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bonkowski.net/posts/yesql-oracle-and-fetch-out-of-sequence/</loc>
-    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bonkowski.net/tags/errors/</loc>
     <lastmod>2016-10-28T22:08:46+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://bonkowski.net/tags/oracle/</loc>
+    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
+  </url><url>
+    <loc>https://bonkowski.net/tags/yesql/</loc>
+    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
+  </url><url>
+    <loc>https://bonkowski.net/posts/yesql-oracle-and-fetch-out-of-sequence/</loc>
+    <lastmod>2016-10-28T22:08:46+02:00</lastmod>
+  </url><url>
     <loc>https://bonkowski.net/tags/appcode/</loc>
     <lastmod>2013-02-10T23:19:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bonkowski.net/tags/jetbrains/</loc>
     <lastmod>2013-02-10T23:19:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bonkowski.net/tags/objective-c/</loc>
     <lastmod>2013-02-10T23:19:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bonkowski.net/posts/refactoring-in-appcode/</loc>
     <lastmod>2013-02-10T23:19:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bonkowski.net/posts/navigation-in-appcode/</loc>
     <lastmod>2013-01-21T21:32:00+02:00</lastmod>
   </url>
-  
 </urlset>
